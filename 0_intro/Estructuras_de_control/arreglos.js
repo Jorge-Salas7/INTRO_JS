@@ -12,3 +12,16 @@ const arrMixto=["Jorge", 20, true, () => console.log("Hola"), "Salas"];
 console.log(arrMixto);
 
 arrMixto.length; /*Saber el tamaño del arreglo*/
+
+
+let alumnos=("Sergio", "Jorge", "Paola", "Santiago", "Luis");
+
+alumnos.push("Jaime", "Gustavo"); /*Agrega lo que pongas al arreglo */
+
+alumnos.pop(); /*Elimina lo ultimo del arreglo */
+
+alumnos.unshift("Homero", "Octavio");
+
+const eliminaElemento=shift(); /*Elimina lo primero del arreglo */
+
+alumnos.concat("Jesus", "Rodrigo"); /*Agrega*/
